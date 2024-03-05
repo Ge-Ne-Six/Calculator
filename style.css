@@ -1,0 +1,51 @@
+body{
+  background-color: white;
+}
+button{
+  width: 60px;
+  height: 60px;
+  background-color: grey;
+  color: white;
+  box-shadow: inset -20px -16px 2px #00000069;
+  border-radius: 60px;
+  border: none;
+  font-size: larger;
+  font-family: Arial;
+  font-weight: 700;
+}
+.yellow{
+  background-color: orange;
+}
+.result{
+  border: none;
+
+  font-size: 45px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+  color: black;
+  background-color: white;
+  width: 200px;
+  margin: auto;
+  text-align: right;
+}
+.form{
+  border: 1px solid black;
+  margin-left: 100px;
+  background-color: white;
+  background-image: url('images/wallpaper1.png');
+  width: 280px;
+  height: 480px;
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 30px;
+  box-shadow: 5px 10px 5px;
+  background-color: black;
+  position: absolute;
+  padding-top: 20px;
+}
+.num{
+  margin-top: 20px;
+}
+footer{
+  color: white;
+}

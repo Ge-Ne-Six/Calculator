@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <section class="form">
+    <p class="result">
+      
+    </p>
+    <section class="num">
+    <p>
+      <button onclick="deleted();">Del</button>
+      <button onclick="
+      calculation = '';
+      resultcalculation();
+      localStorage.setItem('calculation',calculation)
+    ">A/C</button>
+    <button>tet</button>
+    </p>
+    <p class="p1">
+      <button onclick="updatecalculation('1');">1</button>
+      <button onclick="updatecalculation('2');">2</button>
+      <button onclick="updatecalculation('3');">3</button>
+      <button class="yellow" onclick="updatecalculation(' + ');">+</button>
+    </p>
+    <p class="p2">
+      <button onclick="updatecalculation('4');">4</button>
+      <button onclick="updatecalculation('5');">5</button>
+      <button onclick="updatecalculation('6');">6</button>
+      <button class="yellow" onclick="updatecalculation(' - ');">-</button>
+    </p>
+    <p class="p3">
+      <section>
+      <button class="" onclick="updatecalculation('7');">7</button>
+      <button class="" onclick="updatecalculation('8');">8</button>
+      <button onclick="updatecalculation('9');">9</button>
+      <button class="yellow" onclick="updatecalculation(' * ');">x</button>
+      </section>
+    </p>
+    <p class="p5">
+      <button onclick="updatecalculation('0');">0</button>
+      <button onclick="updatecalculation('.');">.</button>
+      <button class="equal" onclick="equalTo();">=</button>
+      <button class="yellow" onclick="updatecalculation(' / ');">/</button>
+    </p> 
+    </section>
+    <footer>GeNeSix&copy;</footer>
+  </section>
+
+
+
+  <script src="/index.js"></script>
+</body>
+</html>
